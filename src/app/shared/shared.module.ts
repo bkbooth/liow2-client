@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
@@ -57,7 +57,7 @@ import { MomentPipe } from './moment.pipe';
   exports: [
     CommonModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
     RouterModule,
 
     DeedListComponent,
